@@ -1,38 +1,14 @@
 package keyce;
 
-public class staff {
-    String IDstaff;
-    String nom;
-    String prenom;
-    String sexe;
-    String DateNaiss;
-    Integer tel;
-    String email;
-    String poste;
+public class staff extends Personne{
 
-    staff Aida= new staff();
-    staff Bencini = new staff();
+    private int IdStaff;
 
-    public void Renvoyer(){
+    private String sexe;
 
-    }
+    private Integer tel;
 
-    public void Embaucher(){
+    private String poste;
 
-    }
 
-    public staff(){
-
-    }
-
-    public staff(String IDstaff, String nom, String prenom, String sexe, String dateNaiss, Integer tel, String email, String poste) {
-        this.IDstaff = IDstaff;
-        this.nom = nom;
-        this.prenom = prenom;
-        this.sexe = sexe;
-        DateNaiss = dateNaiss;
-        this.tel = tel;
-        this.email = email;
-        this.poste = poste;
-    }
 }
